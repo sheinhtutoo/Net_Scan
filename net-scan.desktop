@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Net Scan
+Comment=Network Scanning Tool
+Icon=/usr/lib/Net-Scan/icon.png
+Exec=/usr/lib/Net-Scan/net-scan.sh
