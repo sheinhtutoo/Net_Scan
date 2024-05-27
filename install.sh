@@ -40,9 +40,6 @@ else
     exit 1
 fi
 sleep 5
-echo "Net-Scan: Process in system update..." 
-sudo apt update >/dev/null 2>&1
-echo "Net-Scan: Update successful!"
 
 echo "Net-Scan: Installing python3..."
 sudo apt install python3 -y >/dev/null 2>&1
