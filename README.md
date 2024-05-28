@@ -19,4 +19,6 @@ chmod +x ./install.sh
 
 ./install.sh
 
-Then complete installation~
+Then complete installation!
+
+Right click to Allow Lunching on Desktop net-scan.desktop
