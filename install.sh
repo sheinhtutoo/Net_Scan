@@ -64,6 +64,7 @@ sudo cp $(pwd)/icon.png /usr/lib/Net-Scan/
 sudo cp $(pwd)/net-scan.sh /usr/lib/Net-Scan/
 sudo chmod +x net-scan.desktop
 sudo cp net-scan.desktop /usr/share/applications/
+sudo cp net-scan.desktop $HOME/Desktop/
 echo "Checking Installation Process..."
 sleep 3
 echo "Net-Scan Installation Successful..!"
