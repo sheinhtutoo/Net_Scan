@@ -52,5 +52,4 @@ sudo arp-scan --interface=$inter --localnet | sed 's| (https://github.com/royhil
 !seen[$1]++{
     printf "%-36s %-35s %-40s\n", $1, $2, vendor_name
 }'
-
-
+sleep 1h
