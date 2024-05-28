@@ -7,7 +7,7 @@ Net-Scan tool is similar with netdiscover tool. Net-Scan is scan in same network
 
 sudo su
 
-apt update
+apt update && apt upgrade
 
 apt install git
 
@@ -19,5 +19,4 @@ chmod +x ./install.sh
 
 ./install.sh
 
-
-
+Then complete installation~
