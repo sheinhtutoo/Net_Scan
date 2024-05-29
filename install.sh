@@ -24,7 +24,6 @@ check_arp_scan_installed() {
 }
 
 check_internet_connection() {
-    # Ping Google DNS server to check for internet connectivity
     if ping -c 1 8.8.8.8 &> /dev/null; then
         return 0
     else
@@ -65,6 +64,7 @@ sudo cp $(pwd)/net-scan.sh /usr/lib/Net-Scan/
 sudo chmod +x net-scan.desktop
 sudo cp net-scan.desktop /usr/share/applications/
 sudo cp net-scan.desktop $HOME/Desktop/
+sudo chmod u+x $HOME/Desktop/net-scan.desktop
 echo "Checking Installation Process..."
 sleep 3
 echo "Net-Scan Installation Successful..!"
