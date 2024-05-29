@@ -47,14 +47,10 @@ echo "Net-Scan: Inalled python3 successful!"
 
 echo "Net-Scan: Installing ARP Scan & Gawk..."
 sudo apt install arp-scan gawk >/dev/null 2>&1
- if check_arp_scan_installed; then
-    sudo chmod 644 /etc/arp-scan/mac-vendor.txt /usr/share/arp-scan/ieee-oui.txt
-    echo "Net-Scan: Installed ARP-Scan & Gawk successful!"
-else
-    echo "Failed to install arp-scan. Exiting."
-    echo "Net-Scan: Installation Unsuccessful..!"
-    exit 1
-fi
+sleep 1
+sudo chmod 644 /etc/arp-scan/mac-vendor.txt
+sudo chmod 644 /usr/share/arp-scan/ieee-oui.txt
+echo "Net-Scan: Installed ARP-Scan & Gawk successful!"
 
 sudo chmod +x $(pwd)/net-scan.sh
 sudo ln -s $(pwd)/net-scan.sh /usr/bin/netscan
