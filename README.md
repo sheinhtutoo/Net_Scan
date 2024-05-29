@@ -1,4 +1,4 @@
-![image](https://github.com/sheinhtutoo/Net_Scan/icon.png)
+![image](https://github.com/sheinhtutoo/Net_Scan/blob/main/icon.png)
 
 # Net_Scan
 Network Scanning Tool for Hackers
